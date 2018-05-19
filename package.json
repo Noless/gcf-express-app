@@ -9,7 +9,13 @@
     "type": "git",
     "url": "https://github.com/noless/gcf-express-app.git"
   },
-  "keywords": ["express", "express app", "gcf", "cloud functions", "google cloud functions" ],
+  "keywords": [
+    "express",
+    "express app",
+    "gcf",
+    "cloud functions",
+    "google cloud functions"
+  ],
   "scripts": {
     "start": "babel-node --max-old-space-size=16384 index.js",
     "build": "babel index.js --out-dir lib --ignore '**/*.test.js'",
@@ -25,14 +31,15 @@
     "validate": "npm run flow && npm run eslint && npm run prettier && npm run coverage",
     "precommit": "npm run build && git add lib/"
   },
- "devDependencies": {
-    "babel-runtime": "^6.26.0",
-    "babel-plugin-transform-runtime": "^6.23.0",
+  "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-eslint": "^8.0.2",
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
     "babel-preset-env": "^1.6.1",
     "babel-preset-flow": "^6.23.0",
+    "babel-runtime": "^6.26.0",
+    "coveralls": "^3.0.1",
     "eslint": "^4.16.0",
     "eslint-plugin-flowtype": "^2.40.1",
     "eslint-plugin-jest": "^21.3.2",

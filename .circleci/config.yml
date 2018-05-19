@@ -61,4 +61,4 @@ jobs:
       # Coveralls 
       - run:
           name: "Coveralls"
-          command: yarn jest --coverage --coverageReporters=text-lcov | coveralls
+          command: yarn jest --coverage --coverageReporters=text-lcov | yarn coveralls

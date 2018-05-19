@@ -2,6 +2,7 @@
 
 [`gcf-express-app`](https://www.npmjs.com/package/gcf-express-app) helps you run [`express`](https://expressjs.com) apps on Google Cloud Functions (GCF) without Firebase!
 
+[![CircleCI](https://circleci.com/gh/Noless/gcf-express-app.svg?style=svg)](https://circleci.com/gh/Noless/gcf-express-app)
 [![version](https://img.shields.io/npm/v/gcf-express-app.svg?style=flat-square)](http://npm.im/gcf-express-app)
 [![MIT License](https://img.shields.io/npm/l/gcf-express-app.svg?style=flat-square)](http://opensource.org/licenses/MIT)
 

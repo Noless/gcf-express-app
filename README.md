@@ -56,4 +56,4 @@ Actually works. But then there's a problem with a trailing slash.
 
 ## License
 
-WTFPL
+MIT

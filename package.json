@@ -19,8 +19,7 @@
     "precommit": "npm run build && git add lib/"
   },
   "author": "Noless",
-  "license": "UNLICENSED",
-  "private": true,
+  "license": "WTFPL",
   "devDependencies": {
     "babel-runtime": "^6.26.0",
     "babel-plugin-transform-runtime": "^6.23.0",

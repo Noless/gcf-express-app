@@ -1,8 +1,8 @@
 {
   "name": "gcf-express-app",
   "version": "0.0.1",
-  "description": "Run Express Apps on GCF",
-  "main": "index.js",
+  "description": "Run Express Apps on Google Cloud Functions",
+  "main": "lib/index.js",
   "scripts": {
     "start": "babel-node --max-old-space-size=16384 index.js",
     "build": "babel index.js --out-dir lib --ignore '**/*.test.js'",

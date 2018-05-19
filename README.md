@@ -1,6 +1,6 @@
 # gcf-express-app 
 
-[`gcf-express-app`] helps you run [`express`](https://expressjs.com) apps on Google Cloud Functions (GCF) without Firebase!
+[`gcf-express-app`](https://www.npmjs.com/package/gcf-express-app) helps you run [`express`](https://expressjs.com) apps on Google Cloud Functions (GCF) without Firebase!
 
 [![version](https://img.shields.io/npm/v/gcf-express-app.svg?style=flat-square)](http://npm.im/gcf-express-app)
 [![MIT License](https://img.shields.io/npm/l/gcf-express-app.svg?style=flat-square)](http://opensource.org/licenses/MIT)
@@ -35,8 +35,10 @@ Cleanup:
 $ gcloud beta functions delete testExpressApp
 ~~~
 
-The `example` directory is a ready-to-deploy sample function that uses
-`gcf-express-app` and deploys an express app on GCF.
+The [`example`](https://github.com/noless/gcf-express-app/tree/master/example)
+directory is a ready-to-deploy sample function that uses
+[`gcf-express-app`](https://www.npmjs.com/package/gcf-express-app) 
+and deploys an express app on GCF.
 
 ## Why 
 

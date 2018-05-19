@@ -1,0 +1,7 @@
+[ignore]
+.*/node_modules/protobufjs/.*
+.*/node_modules/config-chain/.*
+.*/node_modules/findup/.*
+.*/node_modules/styled-components/.*
+.*/node_modules/stylelint/.*
+

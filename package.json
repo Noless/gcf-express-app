@@ -1,0 +1,43 @@
+{
+  "name": "gcf-express-app",
+  "version": "0.0.1",
+  "description": "Run Express Apps on GCF",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node --max-old-space-size=16384 index.js",
+    "build": "babel src --out-dir lib --ignore '**/*.test.js' --source-maps",
+    "test": "jest",
+    "test:watch": "npm test -- --watch",
+    "test:debug": "node --inspect-brk node_modules/.bin/jest --runInBand",
+    "coverage": "npm test -- --coverage",
+    "coverage:watch": "npm test -- --watch --coverage",
+    "eslint": "eslint src/",
+    "prettier": "prettier --write index.js index.test.js src/**/*.js",
+    "prettier:circleci": "prettier --list-different index.js index.test.js src/**/*.js",
+    "flow": "flow",
+    "validate": "npm run flow && npm run eslint && npm run prettier && npm run coverage",
+    "precommit": "npm run build && git add lib/"
+  },
+  "author": "Noless",
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-runtime": "^6.26.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^8.0.2",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-flow": "^6.23.0",
+    "eslint": "^4.16.0",
+    "eslint-plugin-flowtype": "^2.40.1",
+    "eslint-plugin-jest": "^21.3.2",
+    "flow-bin": "^0.64.0",
+    "husky": "^0.14.3",
+    "jest": "^22.1.4",
+    "jest-junit": "^3.4.1",
+    "prettier": "^1.10.2"
+  }
+}

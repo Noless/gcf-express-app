@@ -1,0 +1,17 @@
+# VIM
+*.swp
+
+# TESTING 
+coverage/
+
+# DEPENDENCIES 
+node_modules/
+
+# PRODUCTION
+build/
+
+# LOGS 
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+firebase-debug.log*

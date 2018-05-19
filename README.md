@@ -1,6 +1,9 @@
 # gcf-express-app 
 
-Run Express Apps on Google Cloud Functions (GCF) without Firebase!
+[`gcf-express-app`] helps you run [`express`](https://expressjs.com) apps on Google Cloud Functions (GCF) without Firebase!
+
+[![version](https://img.shields.io/npm/v/gcf-express-app.svg?style=flat-square)](http://npm.im/gcf-express-app)
+[![MIT License](https://img.shields.io/npm/l/gcf-express-app.svg?style=flat-square)](http://opensource.org/licenses/MIT)
 
 ## Example
 

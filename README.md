@@ -33,7 +33,7 @@ $ gcloud beta functions delete testExpressApp
 ~~~
 
 The `example` directory is a ready-to-deploy sample function that uses
-gcf-express-app and deploys an express app on GCF.
+`gcf-express-app` and deploys an express app on GCF.
 
 ## Why 
 

@@ -1,0 +1,13 @@
+{
+  "name": "gcf-express-app-example",
+  "version": "1.0.0",
+  "description": "A usage example for gcf-express-app package",
+  "main": "index.js",
+  "author": "Noless",
+  "license": "WTFPL",
+  "private": false,
+  "dependencies": {
+    "express": "^4.16.3",
+    "gcf-express-app": "^0.0.1"
+  }
+}

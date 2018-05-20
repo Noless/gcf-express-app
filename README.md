@@ -44,7 +44,7 @@ and deploys an express app on GCF.
 
 ## Why 
 
-I simply wanted to run express apps on GCF without using Firebase functions.
+We simply wanted to run express apps on GCF without using Firebase functions.
 
 Simply doing:
 

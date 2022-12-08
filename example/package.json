@@ -7,7 +7,7 @@
   "license": "WTFPL",
   "private": false,
   "dependencies": {
-    "express": "^4.16.3",
+    "express": "^4.17.3",
     "gcf-express-app": "^0.0.1"
   }
 }
